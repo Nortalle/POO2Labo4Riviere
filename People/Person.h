@@ -23,6 +23,13 @@ using namespace std;
 class Person {
 private:
     string name;
+
+    /**
+     * S'il ne vaut pas nullptr, cette personne a besoin d'être accompagnée
+     *
+     * Sinon, elle doit absolument être accompagné de la personne pointée
+     */
+    Person* needsToBeWith;
 public:
     Person(string name);
 
@@ -30,6 +37,9 @@ public:
 
     string getName()const;
 
+    /**
+     * @return si cette personne peut conduire un bâteau ou non 
+     */
     virtual bool canDrive() const = 0;
 };
 
