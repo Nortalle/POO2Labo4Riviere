@@ -23,13 +23,14 @@ using namespace std;
 class Person {
 private:
     string name;
-    bool _canDrive;
 public:
-    Person(string name, bool _canDrive);
+    Person(string name);
+
+    Person();
 
     string getName()const;
 
-    bool canDrive() const;
+    virtual bool canDrive() const;
 };
 
 

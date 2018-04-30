@@ -17,10 +17,8 @@ string Person::getName() const {
     return name;
 }
 
-bool Person::canDrive() const {
-    return _canDrive;
-}
-
-Person::Person(string name, bool _canDrive) : name(name), _canDrive(_canDrive) {
+Person::Person(string name) : name(name) {
 
 }
+
+Person::Person() {}

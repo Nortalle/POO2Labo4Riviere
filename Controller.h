@@ -16,7 +16,7 @@
 
 
 #include <list>
-#include "Person.h"
+#include "People/Person.h"
 #include "Containers/Bank.h"
 
 class Controller {

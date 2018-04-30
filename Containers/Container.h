@@ -17,7 +17,7 @@
 #include <cstdlib>
 #include <string>
 #include <list>
-#include "../Person.h"
+#include "../People/Person.h"
 
 using namespace std;
 
