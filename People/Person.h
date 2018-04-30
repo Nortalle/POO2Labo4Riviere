@@ -38,7 +38,7 @@ public:
     string getName()const;
 
     /**
-     * @return si cette personne peut conduire un bâteau ou non 
+     * @return si cette personne peut conduire un bâteau ou non
      */
     virtual bool canDrive() const = 0;
 };

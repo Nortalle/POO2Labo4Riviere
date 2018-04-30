@@ -1,2 +1,10 @@
-Pourquoi est-ce qu'un bâteau qui a une référence sur un rivage et pas le contraire ?
+Pourquoi est-ce qu'un bâteau aurait une référence sur un rivage et pas le contraire ?
 
+Est-ce qu'un enfant peut devenir un adulte ou on peut définir 
+
+			Person
+		      /        \
+	     Conducteur	       Pas conducteur
+		
+	Parent			Enfants 
+				Prisonnier
