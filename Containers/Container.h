@@ -1,6 +1,15 @@
-//
-// Created by Nortalle on 30.04.2018.
-//
+/*
+ ------------------------------------------------------------------------------
+ Labo        : 4
+ Fichier     : Container.h
+ Auteur(s)   : Guillaume Hochet et Vincent Guidoux
+ Date        : 23.05.2018
+
+ But        :
+
+ Commentaires    :
+ ------------------------------------------------------------------------------
+*/
 
 #ifndef POO2LABO4RIVIERE_CONTAINER_H
 #define POO2LABO4RIVIERE_CONTAINER_H

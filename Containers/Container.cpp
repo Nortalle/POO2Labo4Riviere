@@ -1,7 +1,15 @@
-//
-// Created by Nortalle on 30.04.2018.
-//
+/*
+ ------------------------------------------------------------------------------
+ Labo        : 4
+ Fichier     : Controller.cpp
+ Auteur(s)   : Guillaume Hochet et Vincent Guidoux
+ Date        : 23.05.2018
 
+ But        :
+
+ Commentaires    :
+ ------------------------------------------------------------------------------
+*/
 #include "Container.h"
 
 Container::Container(const string &name) : name(name), persons(list<Person>()){}
