@@ -9,8 +9,9 @@
 #include "Person.h"
 
 class NonDriver : public Person{
+public:
+    bool canDrive() const override;
 
-    
 };
 
 

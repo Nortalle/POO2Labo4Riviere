@@ -9,6 +9,8 @@
 #include "Person.h"
 
 class Driver : public Person{
+public:
+    bool canDrive() const override;
 
 };
 

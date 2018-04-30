@@ -30,7 +30,7 @@ public:
 
     string getName()const;
 
-    virtual bool canDrive() const;
+    virtual bool canDrive() const = 0;
 };
 
 
